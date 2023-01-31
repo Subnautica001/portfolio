@@ -4,6 +4,7 @@ body {
     font-size: 30px;
 }
 
+
 /* Body Header */
 
 #body-header {
@@ -30,20 +31,21 @@ b{
     padding: 15px;
     width: auto;
     color:#009688;
-    font-size: 2rem;
+    font-size:1 rem;
 }
 .para2{
     padding:5px ;
     width:auto;
-    font-size:1.5rem;
+    font-size:1.1rem;
     color: black;
 }
 .para3{
     padding:5px ;
     width:auto;
-    font-size:1.3rem;
+    font-size:1.1rem;
     color: black;
 }
+
 /* Horizontal Lists */
 
 .horizontal-list {
@@ -273,6 +275,17 @@ section:target {
     border: 3px dashed #0096fa6b;
     top: 10%;
     left: 50%;
+}
+
+@media screen and(max-width:600px){
+    .timeline-divider{
+        left: 5%;
+    }
+    .timeline-box{
+        left: 12%;
+        width:80%;
+    }
+
 }
 
 .timeline-traveller {
